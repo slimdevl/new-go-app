@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: new-go-app
+  description: new-go-app
+  annotations: 
+    github.com/project-slug: slimdevl/new-go-app
+    backstage.io/github-actions-id: slimdevl/new-go-app
+spec:
+  type: service
+  lifecycle: experimental
+  owner: slimdevl
